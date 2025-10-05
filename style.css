@@ -1,0 +1,66 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+
+}
+section {
+  padding: 20px;
+}
+form {
+  background: white;
+  padding: 20px;
+  border: 2px solid black;
+  width: 300px;
+  margin: auto;
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+form button {
+  background: black;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/*.poster_1{
+  align-items: center;
+  box-shadow: 5px 2px 2px 2px rgb(54, 158, 92);
+  border: #940f0f;
+  margin-left: 50%;
+}*/
+.banner{
+ height: 800px;
+ background-image: url("got.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#main{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(254, 253, 251);
+  margin-top: 130px;
+}
+#button{
+  display: flex;
+  justify-content: space-between;
+}
